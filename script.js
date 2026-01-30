@@ -1,7 +1,7 @@
 // Corazones flotando (suave). Se desactiva con prefers-reduced-motion (CSS).
 (() => {
-  const hearts = ["💛","💖","💞","💗","✨"];
-  const spawnEveryMs = 700;
+  const hearts = ["❤️","💘","💝","💞","💓"];
+  const spawnEveryMs = 250;
 
   function spawnHeart() {
     const el = document.createElement("div");
